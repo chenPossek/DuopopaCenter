@@ -1,0 +1,109 @@
+﻿body 
+{
+    font-family:Assistant ExtraBold;
+}
+#container
+{
+    width:90%;
+    margin:auto;  
+    height:90%; 
+    background-color:Aqua;
+}
+
+/** --------------- תפריט הניווט--------------- **/
+header
+{
+    width:100%;
+    border-bottom: 2px solid #b6d554
+}
+    
+#logo
+{
+    width:90%;  
+}
+#navBtn
+{
+    background-color:Blue;
+}
+#myNavbar ul
+{
+    width:100%;
+    font-size:15pt;
+    text-align:center;
+    font-family:Assistant ExtraBold;
+}
+#myNavbar ul li
+{
+    padding:0px;
+    
+}
+#myNavbar ul li a
+{
+    padding:0px;
+    color: #365784;
+}
+
+
+/** --------------- אזור ראשי--------------- **/
+#mainArea
+{
+        font-family:Assistant ExtraBold;
+}
+/**-------- דמות --------**/
+#fullCharacter
+{
+    width:60%;
+    margin:auto;
+}
+/**----- בועת דיבור -----**/
+.speech 
+{
+    position: relative;
+    text-align:right;
+    padding-right: 2%;  
+    background-color: #b9d3ea;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+     height: 70px;
+     border-bottom-color:transparent;
+
+}
+.speech:before {
+    content: ' ';
+    position: absolute;
+    right: -24px;
+    top: 5px;
+    border: 25px solid;
+    border-color: transparent transparent #b9d3ea #b9d3ea;
+    z-index: -1;
+}
+h1
+{
+    font-family:Assistant !important;
+    font-size: 24pt; 
+}
+/**----- כפתורי עמוד בית -----**/
+
+#mainArea ul
+{
+    padding-top:5%;
+}
+#mainArea ul li
+{
+    display:inline-block;
+}
+.bigBtn
+{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    -webkit-border-radius:15px;
+    background-color: #b9d3ea;
+    font-size:25pt;
+    background-image:url("../images/btnShape.png");
+}
+.actionBtn
+{
+    background-color: #b6d554;
+}
