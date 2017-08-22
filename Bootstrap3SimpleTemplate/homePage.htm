@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <!-- CSS -->
+    <!--Bootstrap 3 css file-->
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Bootstrap non-responsive css file (just add class "non-responsive" to the body tag)-->
+    <link href="Bootstrap/css/bootstrap-non-responsive.css" rel="stylesheet" />
+    <!--Bootstrap fixes for hebrew (add class='rtl' to the body tag)-->
+    <link href="Bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <!--Bootstrap them - for changing the shape and colors of bootstrap objects like buttons-->
+    <!--<link href="Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />-->
+    <!--The only file you should right your css-->
+    <link href="Styles/myStyle.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <!--javaScripts-->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.10.2.min.js"></script>
+    <!--Bootstrap library-->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <!-- font fontawesome-->
+    <script src="https://use.fontawesome.com/877d89c1e1.js"></script>
+    <script type="text/javascript" src="jScripts/JavaScript.js"></script>
+</head>
+<body class="rtl">
+    <div id="container" class="container">
+        <header id="pageTop" class="row"> 
+                <a class="navbar-brand col-md-3 col-xs-5 "  href="#">
+                    <img class="mylogo" src="images/logo_abbvie_Care_Duodopa.png" />
+                </a>
+                <a class="navbar-brand col-md-1 col-xs-3 col-xs-offset-1" href="http://www.hit.ac.il/telem/overview">
+                    <img class="mylogo" src="images/HitLogo.png" />
+                </a>
+                <div class="navbar-header">
+                    <button type="button"  id="navBtn" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+                        <i class="fa fa-bars fa-stack-2x" aria-hidden="true"></i> 
+                    </button>
+                </div>
+            <nav class="navbar col-xs-12 col-sm-12 col-md-7 col-lg-7">  
+                <div class="col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="col-md-4 col-xs-12"><a href="#">עמוד בית</a></li>
+                        <li class="col-md-4 col-xs-12"><a href="#">אודות </a></li>
+                        <li class="col-md-4 col-xs-12"><a href="#">טלפונים שימושיים </a></li>  
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="homeArea" class="row">
+            <div class="col-md-3 col-xs-5">
+                <img id="fullCharacter" class="centerMe" src="images/fullCharacter.png" alt="דמות מלווה" />
+            </div>
+            <section class="col-md-9 col-xs-7">
+                <header class="speech">
+                    <h1>ברוכים הבאים לאתר דואדופה</h1>
+                    <p class="hidden-xs">.....</p>
+                </header>
+                <nav id="homeNav">
+                    <ul>
+                        <li class="col-md-4 col-xs-12 bigActionBtn bigBtn"><a class=""href="#">היכרות עם Duodopa </a></li>
+                        <li class="col-md-4 col-xs-12 bigBtn"><a href="dayCourse.htm">רענון הדרכה</a></li>
+                        <li class="col-md-4 col-xs-12 bigBtn"><a href="#">כל הנושאים</a></li>
+                    </ul>
+                </nav>
+                <section id="FAQ" class="col-xs-12 bigBtn">
+                    <h2>שאלות נוספות</h2>
+                    <ul class="hidden-xs">
+                        <li>
+                            <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-1x "></i>
+                              <i class="fa fa-question-circle fa-stack-1x faBackground"></i>
+                            </span>
+                            <a href="#">אני יוצא לחופשה/נסיעה. מה עלי לקחת איתי?</a>
+                        </li>
+                        <li>
+                            <span class="fa-stack fa-2x">
+                              <i class="fa fa-circle fa-stack-1x "></i>
+                              <i class="fa fa-question-circle fa-stack-1x faBackground"></i>
+                            </span>
+                            <a href="#">איך החיבור למשאבה משפיע על התזונה שלי?</a>
+                        </li>
+                    </ul>
+                    <a  id="extra" class="hidden-xs" href="#">שאלות נוספות <i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                </section>
+            </section>
+        </div>
+        <footer>
+            <span>תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון</span>
+             <span>ב 
+            <a href="http://www.hit.ac.il/telem/overview">פקולטה לטכנולוגיות למידה</a>
+            ,HIT |
+            </span>
+            <span>
+            <a href="#">
+                למידע נוסף
+                <i class="fa fa-caret-left" aria-hidden="true"></i>
+                <i class="fa fa-caret-left" aria-hidden="true"></i>
+            </a>
+            </span>
+        </footer>
+    </div>
+</body> 
+</html>
