@@ -1,0 +1,429 @@
+﻿body 
+{
+    font-family:Assistant ExtraBold;
+}
+#container
+{
+    width:90%;
+    margin:auto;  
+    height:90%;
+}
+footer
+{
+    text-align:center;
+    padding-top:4%;
+    font-size:95%;   
+}
+footer a
+{
+    color:#365784;
+    font-family:Assistant ExtraBold;
+}
+footer a:hover
+{
+    color:#b6d554;
+}
+footer span 
+{
+    display:block;
+}
+/** --------------- תפריט הניווט--------------- **/
+ header
+{
+    width:100%;
+    padding-bottom:0.5%;
+    height: 65px;
+}
+ header a 
+ {
+     display:inline-block;
+     height:100%;
+ }
+
+.navbar
+{
+    margin-bottom:0;
+}  
+.mylogo
+{
+    height:40px;
+}  
+
+#navBtn
+{
+    color:#b6d554;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 15px;
+}
+/*#ul_menu {
+    z-index: 1;
+    margin-top: 123px;
+    position: absolute;
+    width: 100%;
+    height: 95px;
+}
+
+    #ul_menu li {
+        margin-right: -40px;
+        background-color: rgba(222, 235, 247, 1);
+        text-align: center;
+    }*/
+#myNavbar
+{
+    background-color: #bdd965;
+    margin: 16px -15px 0px -46px;
+}
+.mblNav
+{
+    width:100%;
+    background-color: red;
+}
+#myNavbar ul
+{
+    width:100%;
+    font-size:15pt;
+    text-align:center;
+    font-family:Assistant ExtraBold;
+}
+#myNavbar ul li
+{
+    padding:0px;
+    
+}
+#myNavbar ul li a
+{
+    padding:0px;
+     color:White;
+    height: 40px;
+}
+#myNavbar ul li a:hover
+{
+    background-color: #b6d554;
+    border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    height: 40px;
+}
+
+/** --------------- אזור ראשי--------------- **/
+#homeArea
+{
+    font-family:Assistant ExtraBold;
+    border-top: 2px solid #b6d554;
+    padding-top: 10px; 
+}
+#homeArea section
+{
+    padding-right:0;
+}
+p
+{
+    font-family:Assistant;
+}
+.collapse ol
+{
+    padding-right:12px;
+}
+
+/**-------- דמות --------**/
+#fullCharacter
+{
+    width: 135%;
+    margin-right: -30px;
+}
+#characterFace
+{
+    margin-right: 10px;
+    padding-right: 0px;
+    position: absolute;
+    height: 65px;
+}
+/**----- בועת דיבור -----**/
+.speech 
+{
+    position: relative;
+    text-align:right;
+    padding-right: 10%;  
+    background-color: #b9d3ea;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+     height: 70px;
+     border-bottom-color:transparent;
+
+}
+h1.speech
+{
+    height:100%;
+    margin-top: 0px;
+}
+.speech:before {
+    content: ' ';
+    position: absolute;
+    right: -15px;
+    top: 5px;
+    border: 14px solid;
+    border-color: transparent transparent #b9d3ea #b9d3ea;
+    z-index: -1;
+}
+h1
+{
+    font-family:Assistant !important;
+    font-size: 130%;
+    padding-top: 4px;
+    margin-top: 0;
+}
+
+/**-------אזור התוכן----------**/
+/*.content
+{
+    background-color: #ffffff;
+    position: absolute;
+    width: 160%;
+    margin-right: -80%;  
+}*/
+.heading
+{
+    border-bottom:1px solid black;
+}
+.heading div h2
+{
+    font-size:18px;
+    padding-right:0;
+}
+.heading div i
+{
+    padding-top:17px;
+}
+
+/**----- כפתורי עמוד בית -----**/
+
+#homeNav
+{
+    padding-top: 5%;
+    margin-right: -59px;
+    margin-left: -9px;
+}
+#homeArea ul li
+{
+    display:block;
+}
+.bigBtn
+{
+    height: 55px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    font-size: 13pt;
+    background-image: url(../images/BigBlueBtn.png);
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #b9d3ea;
+    text-align: center;
+    margin: 3%;
+    padding:13px 30px 0 30px;
+    display:block;
+    width:100%;
+    color:Black;
+}
+
+.bigBtn a
+{
+    color: Black;
+}
+
+.bigBtn:hover
+{
+    text-decoration:none;
+    color:Black;
+    background-image:url("../images/BigBlueBtnhover.png");
+ 
+}
+.bigActionBtn
+{
+    background-image:url("../images/BigGreenBtn.png");
+    background-color: #b5d454;
+    padding-top:0;
+}
+.bigActionBtn:hover
+{
+    background-image:url("../images/BigGreenBtnHover.png");    
+}
+/**----- שאלות נפוצות -----**/
+#FAQ
+{
+    background-color: #b9d3ea;
+    border-radius: 13px;
+    -webkit-border-radius:15px;
+    padding-top: 0;
+    
+}
+#FAQ h2 
+{
+    font-size: 13pt;
+    font-family:Assistant ExtraBold;
+}
+
+/**-------------סרטונים------------**/
+.video
+{
+    background-color:Black;
+}
+.video iframe
+{
+    width:100%;
+}
+
+
+/**-----------לא טלפון---------------*/
+@media only screen and (min-width: 992px)
+{
+    header
+    {
+        width:100%;
+        padding-bottom:0.5%;
+        height: 100px;
+    }
+    
+    footer
+    {
+        padding-top:0;
+    }
+    footer span 
+    {
+        display:inline;
+    }
+
+    .centerMe
+    {
+        text-align:center;
+    }
+
+    .mylogo
+    {
+        height:80px;
+    }  
+
+    #navBtn
+    {
+        color:#b6d554;
+    }
+    #myNavbar
+    {
+        background-color: white;
+        margin-top: 55px;
+    }
+    #myNavbar ul
+    {
+        width:100%;
+        font-size:15pt;
+        text-align:center;
+        font-family:Assistant ExtraBold;
+    }
+    #myNavbar ul li
+    {
+        padding:0px;
+    
+    }
+    #myNavbar ul li a
+    {
+        padding:17px 0;
+        color: #365784;
+        height: 40px;
+    }
+    #myNavbar ul li a:hover
+    {
+        background-color: #b6d554;
+        border-top-right-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+        -moz-border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-top-left-radius: 10px;
+        border-bottom: 10px solid #b6d554;
+    }  
+    /**-------- דמות --------**/
+    #fullCharacter
+    {
+        width:60%;
+    }
+    /**----- בועת דיבור -----**/
+    .speech 
+    {
+        padding-right: 2%;  
+    }
+    .speech:before {
+        right: -24px;
+        top: 5px;
+        border: 25px solid;
+        border-color: transparent transparent #b9d3ea #b9d3ea;
+        z-index: -1;
+    }
+    h1
+    {
+        font-size: 24pt; 
+    }
+    /**----- כפתורי עמוד בית -----**/
+    #homeNav
+    {
+        padding-top:0;
+        padding-right:0;
+    }
+    
+    #homeArea ul li
+    {
+        display:block;
+    }
+
+    .bigBtn
+    {
+        height: 150px;
+        font-size:25pt;
+        padding-top: 45px;
+    }
+    .bigBtn a:hover
+    {
+        text-decoration:none;
+    }
+    .bigActionBtn
+    {
+        padding-top: 25px;
+    }
+    /**----- שאלות נפוצות -----**/
+    #FAQ
+    {
+        font-size: 12pt;
+        text-align: right;
+    }
+    #FAQ h2
+    {
+        padding-right: 20px;
+    } 
+    #FAQ ul
+    {
+        margin-top: -15px;
+    }
+    #FAQ li
+    {
+        height:40px;
+            margin-right: -40px;
+    }
+
+    #extra
+    {
+        float:left; 
+        margin-top: -5px;
+    }
+
+    .faBackground
+    {
+        color:#b6d554;
+    }
+    /**-----------התוכן-----------**/
+}
+
+
