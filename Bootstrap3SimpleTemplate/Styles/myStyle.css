@@ -1,4 +1,4 @@
-﻿body 
+body 
 {
     font-family:Assistant ExtraBold;
 }
@@ -114,11 +114,21 @@ footer span
 {
     font-family:Assistant ExtraBold;
     border-top: 2px solid #b6d554;
+    padding-top: 10px; 
 }
 #homeArea section
 {
     padding-right:0;
 }
+p
+{
+    font-family:Assistant;
+}
+.collapse ol
+{
+    padding-right:12px;
+}
+
 /**-------- דמות --------**/
 #fullCharacter
 {
@@ -165,6 +175,7 @@ h1
     font-family:Assistant !important;
     font-size: 130%;
     padding-top: 4px;
+    margin-top: 0;
 }
 
 /**-------אזור התוכן----------**/
@@ -194,8 +205,8 @@ h1
 #homeNav
 {
     padding-top: 5%;
-    margin-right: -40px;
-    margin-left: 0;
+    margin-right: -59px;
+    margin-left: -9px;
 }
 #homeArea ul li
 {
@@ -214,7 +225,10 @@ h1
     background-color: #b9d3ea;
     text-align: center;
     margin: 3%;
-    padding-top: 13px;
+    padding:13px 30px 0 30px;
+    display:block;
+    width:100%;
+    color:Black;
 }
 
 .bigBtn a
@@ -233,7 +247,7 @@ h1
 {
     background-image:url("../images/BigGreenBtn.png");
     background-color: #b5d454;
-    padding-top: 0;
+    padding-top:0;
 }
 .bigActionBtn:hover
 {
@@ -252,6 +266,16 @@ h1
 {
     font-size: 13pt;
     font-family:Assistant ExtraBold;
+}
+
+/**-------------סרטונים------------**/
+.video
+{
+    background-color:Black;
+}
+.video iframe
+{
+    width:100%;
 }
 
 
@@ -320,7 +344,7 @@ h1
         border-top-left-radius: 10px;
         -webkit-border-top-left-radius: 10px;
         -moz-border-top-left-radius: 10px;
-        border-bottom: 8px solid #b6d554;
+        border-bottom: 10px solid #b6d554;
     }  
     /**-------- דמות --------**/
     #fullCharacter
@@ -349,15 +373,16 @@ h1
         padding-top:0;
         padding-right:0;
     }
+    
     #homeArea ul li
     {
         display:block;
     }
+
     .bigBtn
     {
         height: 150px;
         font-size:25pt;
-        margin-right: 0px;
         padding-top: 45px;
     }
     .bigBtn a:hover
@@ -374,6 +399,10 @@ h1
         font-size: 12pt;
         text-align: right;
     }
+    #FAQ h2
+    {
+        padding-right: 20px;
+    } 
     #FAQ ul
     {
         margin-top: -15px;
@@ -381,7 +410,7 @@ h1
     #FAQ li
     {
         height:40px;
-        margin-right: -60px;
+            margin-right: -40px;
     }
 
     #extra
