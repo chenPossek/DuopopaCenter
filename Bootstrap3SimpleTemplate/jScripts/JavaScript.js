@@ -1,8 +1,10 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
 
     //-------------interactions---------------
 
-    // $(".overlay").hide();
+    function myFunc() {
+        alert("hollo world");
+    }
 
     //פתיחת תפריט   
 
@@ -113,5 +115,9 @@
         $("#sub8 i").addClass("fa-caret-down");
         $("#sub8 i").removeClass("fa-caret-up");
     });
+
+
+
+
 });
 
